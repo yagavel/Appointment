@@ -4,7 +4,7 @@ import Payment from './Payment'
 
 function App() {
   return (
-     <Payment />
+     <h3>Hello Yagavel</h3>
   );
 }
 export default App;
