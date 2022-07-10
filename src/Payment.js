@@ -7,7 +7,6 @@ const { useState } = React;
 const { Link } = Anchor;
 
 const onFinish = (values) => {
-
   alert('Payment Completed Successfully');
 };
 
