@@ -13,13 +13,14 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "router-dom": "^2.2.9",
+    "serve": "^13.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "dev": "react-scripts start",
-  "start": "serve -s build",
-  "build": "react-scripts build",
-  "heroku-postbuild": "npm run build"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
